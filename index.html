@@ -1,51 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aspirate Scholarships</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Aspirate Scholarships</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#apply">Apply</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
 
-    <section id="home">
-        <h2>Welcome to Aspirate Scholarships</h2>
-        <p>Your future starts here. Apply for our scholarships today!</p>
-        <a href="#apply" class="button">Apply Now</a>
-    </section>
+header {
+    background-color: #004d99;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We support talented students who need financial assistance to pursue their dreams. Join us in changing the world!</p>
-    </section>
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
 
-    <section id="apply">
-        <h2>Apply for Scholarship</h2>
-        <p>Fill out the form below to apply for the scholarship.</p>
-        <a href="https://forms.google.com" class="button">Go to Application Form</a>
-    </section>
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
 
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: aspiratescholarships@gmail.com</p>
-        <p>Phone: +123-456-7890</p>
-    </section>
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-    <footer>
-        <p>&copy; 2025 Aspirate Scholarships</p>
-    </footer>
+h2 {
+    color: #004d99;
+}
 
-    <script src="script.js"></script>
-</body>
-</html>
+button {
+    background-color: #ffcc00;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
+
+footer {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
